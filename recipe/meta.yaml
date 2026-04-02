@@ -1,5 +1,5 @@
 {% set name = "dynamotable" %}
-{% set version = "0.2.4" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/alisterburt/dynamotable/archive/v{{ version }}.tar.gz
-  sha256: ae91fc92ccfec7671bbcd885fb6e5edcd8bd3e5d3250feeb97357dfa64ca1b00
+  sha256: f66ea0274deae25de8d29d5be1744515c025e1f5425e537e7deabe58e5657ca4
 
 build:
   noarch: python
